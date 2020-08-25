@@ -1,0 +1,32 @@
+[
+  {
+    "resultsPath": "D:\\Users\\ngocpv12\\Documents\\FU\\capstone\\blouse\\server\\output",
+    "pluralizeNames": true,
+    "noConfigs": false,
+    "convertCaseFile": "pascal",
+    "convertCaseEntity": "pascal",
+    "convertCaseProperty": "camel",
+    "convertEol": "CRLF",
+    "propertyVisibility": "public",
+    "lazy": false,
+    "activeRecord": true,
+    "generateConstructor": false,
+    "customNamingStrategyPath": "",
+    "relationIds": false,
+    "strictMode": "none",
+    "skipSchema": true,
+    "indexFile": true,
+    "exportType": "named"
+  },
+  {
+    "host": "mycapstone.mysql.database.azure.com",
+    "port": 3306,
+    "databaseName": "blouse_official",
+    "user": "myadmin@mycapstone",
+    "password": "AzureUser@@12",
+    "databaseType": "mysql",
+    "schemaName": "",
+    "ssl": true,
+    "skipTables": []
+  }
+]
