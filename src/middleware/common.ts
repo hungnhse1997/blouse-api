@@ -4,6 +4,9 @@ const whitelist = [
   'http://localhost:4200',
   'http://localhost:4201',
   'http://localhost:4202',
+  'https://blousevn.herokuapp.com',
+  'https://blouse-admin.herokuapp.com',
+  'https://blouse-api.herokuapp.com/'
 ];
 export const corsOptions = {
   origin: function (origin: any, callback: any) {
