@@ -4,6 +4,7 @@ const whitelist = [
   'http://localhost:4200',
   'http://localhost:4201',
   'http://localhost:4202',
+  'http://localhost:4203',
   'https://blousevn.herokuapp.com',
   'https://blouse-admin.herokuapp.com',
   'https://blouse-api.herokuapp.com/'
