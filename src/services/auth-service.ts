@@ -26,7 +26,7 @@ class AuthService {
                 // signed: true, 
                 // httpOnly: true,     // chỉ có http mới đọc được token
                 sameSite: "none",
-                // secure: true    //ssl nếu có, nếu chạy localhost thì comment nó lại
+                secure: true    //ssl nếu có, nếu chạy localhost thì comment nó lại
             })
             return res
                 .status(200)
