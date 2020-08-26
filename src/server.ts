@@ -46,6 +46,7 @@ DatabaseManager.init().then(() => {
       secure: true
     }
   }))
+  router.set('trust proxy', 1);
 
   router.use(passport.initialize());
   router.use(passport.session());
