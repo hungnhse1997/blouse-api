@@ -22,11 +22,11 @@ class AuthService {
             const token = jwt.sign({ id: user.id, username: user.username, role: user.role }, process.env.JWT_SECRET || '@Hung123', { expiresIn: "1h" });
             res.cookie('access_token', token, {
                 maxAge: 60 * 60 * 1000,
-                domain: 'https://blouse-admin.herokuapp.com/',
+                // domain: 'https://blouse-admin.herokuapp.com/',
                 // signed: true, 
                 // httpOnly: true,     // chỉ có http mới đọc được token
                 sameSite: "none",
-                secure: true    //ssl nếu có, nếu chạy localhost thì comment nó lại
+                // secure: true    //ssl nếu có, nếu chạy localhost thì comment nó lại
             })
             return res
                 .status(200)
