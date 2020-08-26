@@ -7,7 +7,7 @@ const whitelist = [
   'http://localhost:4203',
   'https://blousevn.herokuapp.com',
   'https://blouse-admin.herokuapp.com',
-  'https://blouse-api.herokuapp.com/'
+  'https://blouse-api.herokuapp.com'
 ];
 export const corsOptions = {
   origin: function (origin: any, callback: any) {
