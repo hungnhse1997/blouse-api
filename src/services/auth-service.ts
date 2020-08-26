@@ -25,8 +25,8 @@ class AuthService {
                 // domain: 'https://blouse-admin.herokuapp.com/',
                 // signed: true, 
                 // httpOnly: true,     // chỉ có http mới đọc được token
-                sameSite: "none",
-                secure: true    //ssl nếu có, nếu chạy localhost thì comment nó lại
+                // sameSite: "none",
+                // secure: true    //ssl nếu có, nếu chạy localhost thì comment nó lại
             })
             return res
                 .status(200)
