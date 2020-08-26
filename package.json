@@ -40,6 +40,7 @@
     "passport": "^0.4.1",
     "passport-google-oauth20": "^2.0.0",
     "reflect-metadata": "^0.1.13",
+    "should-send-same-site-none": "^2.0.5",
     "typeorm": "^0.2.25",
     "uuid": "^8.2.0"
   },

@@ -15,6 +15,7 @@ import cookieParser from 'cookie-parser';
 import routes from "./api";
 import cors from "cors";
 import { corsOptions } from './middleware/common';
+import { shouldSendSameSiteNone } from 'should-send-same-site-none';
 
 const passportSetup = require("./config/passport-setup");
 const cookieSession = require('cookie-session');
@@ -48,6 +49,7 @@ DatabaseManager.init().then(() => {
 
   router.use(bodyParser.json());
   router.use(cookieParser(process.env.COOKIE_SECRET));
+  router.use(shouldSendSameSiteNone);
   router.use("/", routes);
 
   const server = http.createServer(router);
