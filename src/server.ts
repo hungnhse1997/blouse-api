@@ -41,6 +41,7 @@ DatabaseManager.init().then(() => {
     keys: "key@123",
     maxAge: 24 * 60 * 60 * 1000,
     cookie: {
+      domain:'.herokuapp.com',
       httpOnly: true,
       sameSite: 'none',
       secure: true
